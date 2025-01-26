@@ -94,7 +94,10 @@ com.Demowebshop
 <h1 align="center">  💼 Reporting :</h1>
 
   - TestNG Reports :
- ![WebShopReport](https://github.com/user-attachments/assets/01678f8e-9963-4c56-94ac-2c3401a47780)
+![WebShopReport](https://github.com/user-attachments/assets/01678f8e-9963-4c56-94ac-2c3401a47780)
+![ReportDemoWeb](https://github.com/user-attachments/assets/5494e503-9bb4-4fa5-a61b-82344f645901)
+
+
 
  <h1 align="center">🤝 Contributing :</h1>
 
@@ -102,14 +105,7 @@ com.Demowebshop
  
 
 
-
-
-
-
-
-
-
-
+ 
 
 
 
