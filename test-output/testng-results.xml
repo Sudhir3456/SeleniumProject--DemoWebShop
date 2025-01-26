@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="15" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Server connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test sucess]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[database closed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[server closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-16T13:02:08Z" name="Suite" finished-at="2025-01-16T13:02:31Z" duration-ms="22703">
+    <groups>
+      <group name="ST">
+        <method signature="InvalidLoginTest.invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" name="invalidLogin" class="TestScript.InvalidLoginTest"/>
+      </group> <!-- ST -->
+      <group name="RT">
+        <method signature="RegisterTest.register()[pri:0, instance:TestScript.RegisterTest@38467116]" name="register" class="TestScript.RegisterTest"/>
+      </group> <!-- RT -->
+      <group name="FT">
+        <method signature="LoginTest.login()[pri:0, instance:TestScript.LoginTest@194fad1]" name="login" class="TestScript.LoginTest"/>
+        <method signature="RegisterTest.register()[pri:0, instance:TestScript.RegisterTest@38467116]" name="register" class="TestScript.RegisterTest"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2025-01-16T13:02:08Z" name="Test" finished-at="2025-01-16T13:02:31Z" duration-ms="22703">
+      <class name="TestScript.LoginTest">
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:08Z" name="toCloseServer" finished-at="2025-01-16T13:02:08Z" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:08Z" name="toConnectDatabase" finished-at="2025-01-16T13:02:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="toLaunchBrowser(java.lang.String)[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:08Z" name="toLaunchBrowser" finished-at="2025-01-16T13:02:13Z" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunchBrowser -->
+        <test-method signature="login()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:13Z" name="login" finished-at="2025-01-16T13:02:15Z" duration-ms="2026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:15Z" name="toCloseBrowser" finished-at="2025-01-16T13:02:15Z" duration-ms="352" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseBrowser -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:31Z" name="toCloseDatabase" finished-at="2025-01-16T13:02:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database closed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:TestScript.LoginTest@194fad1]" started-at="2025-01-16T13:02:31Z" name="toConnectServer" finished-at="2025-01-16T13:02:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[server closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+      </class> <!-- TestScript.LoginTest -->
+      <class name="TestScript.RegisterTest">
+        <test-method is-config="true" signature="toLaunchBrowser(java.lang.String)[pri:0, instance:TestScript.RegisterTest@38467116]" started-at="2025-01-16T13:02:15Z" name="toLaunchBrowser" finished-at="2025-01-16T13:02:19Z" duration-ms="3802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunchBrowser -->
+        <test-method signature="register()[pri:0, instance:TestScript.RegisterTest@38467116]" started-at="2025-01-16T13:02:19Z" name="register" description="Verify the user is able to register or not" finished-at="2025-01-16T13:02:21Z" duration-ms="1785" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:TestScript.RegisterTest@38467116]" started-at="2025-01-16T13:02:21Z" name="toCloseBrowser" finished-at="2025-01-16T13:02:21Z" duration-ms="338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseBrowser -->
+      </class> <!-- TestScript.RegisterTest -->
+      <class name="TestScript.InvalidLoginTest">
+        <test-method is-config="true" signature="toLaunchBrowser(java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:21Z" name="toLaunchBrowser" finished-at="2025-01-16T13:02:25Z" duration-ms="3786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunchBrowser -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:25Z" name="invalidLogin" data-provider="TestData" finished-at="2025-01-16T13:02:26Z" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahul123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:26Z" name="invalidLogin" data-provider="TestData" finished-at="2025-01-16T13:02:28Z" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shambhavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shambhvi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:28Z" name="invalidLogin" data-provider="TestData" finished-at="2025-01-16T13:02:29Z" duration-ms="1006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jai123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:29Z" name="invalidLogin" data-provider="TestData" finished-at="2025-01-16T13:02:30Z" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:30Z" name="invalidLogin" data-provider="TestData" finished-at="2025-01-16T13:02:31Z" duration-ms="1058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sourav@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sourav123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:TestScript.InvalidLoginTest@5b7a7f33]" started-at="2025-01-16T13:02:31Z" name="toCloseBrowser" finished-at="2025-01-16T13:02:31Z" duration-ms="347" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseBrowser -->
+      </class> <!-- TestScript.InvalidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
